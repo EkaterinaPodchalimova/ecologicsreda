@@ -10,3 +10,7 @@
 .information__card:hover .information__card-icon {
     transform: scale(1.1);
 }
+
+.information__card:focus .information__card-icon {
+    transform: scale(1.1);
+}

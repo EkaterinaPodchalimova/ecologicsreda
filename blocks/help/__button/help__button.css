@@ -25,6 +25,12 @@
     transform: scale(1.1);
 }
 
+.help__button:focus {
+    color: black;
+    border-color: rgb(224, 209, 159);
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 606px) {
     .help__button {
         width: calc(100% - 2*28px);

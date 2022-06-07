@@ -13,3 +13,7 @@
 .social__point:hover:active {
     transform: scale(1.1);
 }
+
+.social__point:focus {
+    transform: scale(1.05);
+}
