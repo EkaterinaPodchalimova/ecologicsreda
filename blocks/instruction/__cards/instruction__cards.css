@@ -1,0 +1,21 @@
+.instruction__cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(100% - 2*20px);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+}
+
+@media screen and (max-width: 1279px) {
+    .instruction__cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+    .instruction__cards {
+        grid-template-columns: 1fr;
+    }
+}

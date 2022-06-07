@@ -1,0 +1,14 @@
+.event__sun {
+    width: 65px;
+    height: 65px;
+    grid-area: sun;
+}
+
+@keyframes rotateSun {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

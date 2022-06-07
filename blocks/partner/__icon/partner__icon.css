@@ -1,0 +1,17 @@
+.partner__icon {
+    margin: 40px 20px;
+    width: 160px;
+    height: 160px;
+}
+
+.partner__icon:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 660px) and (min-width: 320px) {
+    .partner__icon {
+        margin: 25px 5px;
+        width: 100px;
+        height: 100px;
+    }
+}

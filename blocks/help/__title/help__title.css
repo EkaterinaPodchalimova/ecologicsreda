@@ -1,0 +1,17 @@
+.help__title {
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, Arial, sans-serif;
+    margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.23;
+    opacity: 0.40;
+    text-align: center;
+}
+
+@media screen and (max-width: 606px) {
+    .help__title {
+        font-size: 28px;
+    }
+}

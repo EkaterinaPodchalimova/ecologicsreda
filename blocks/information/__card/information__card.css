@@ -1,0 +1,12 @@
+.information__card {
+    width: 360px;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__card:hover .information__card-icon {
+    transform: scale(1.1);
+}

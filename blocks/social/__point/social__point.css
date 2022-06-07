@@ -1,0 +1,15 @@
+.social__point {
+    margin-right: 13px;
+}
+
+.social__point:nth-child(4){
+    margin-right: 0;
+}
+
+.social__point:hover {
+    transform: scale(1.05);
+}
+
+.social__point:hover:active {
+    transform: scale(1.1);
+}

@@ -1,0 +1,10 @@
+.information__title {
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #a39d9d;
+    font-family: 'Roboto',Arial,sans-serif;
+    white-space: nowrap;
+    font-size: 22px;
+}

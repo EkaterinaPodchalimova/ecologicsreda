@@ -1,0 +1,30 @@
+.help {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 904px;
+    height: 200px;
+    border: 3px solid rgb(224, 209, 159);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1280px)  {
+    .help {
+        width: 780px;
+    }
+}
+
+@media screen and (max-width:960px)  {
+    .help {
+        width: 600px;
+        height: 307px;
+    }
+}
+
+@media screen and (max-width: 606px) and (min-width: 320px){
+    .help {
+        width: calc(100% - 2*11.5px)
+    }
+}
