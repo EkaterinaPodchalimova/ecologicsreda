@@ -14,3 +14,9 @@
 .information__card:focus .information__card-icon {
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 398px) and (min-width: 320px){
+    .information__card {
+        width: calc(100% - 2*19px);
+    }
+}

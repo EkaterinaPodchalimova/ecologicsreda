@@ -2,24 +2,29 @@
     width: 1200px;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: min-content;
-    grid-auto-rows: min-content;
+    grid-template-columns: repeat(2,1fr);
     gap: 15px;
     margin-bottom: 90px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+            "list logo";
 }
 
 @media screen and (max-width: 1279px) {
     .events {
         width: calc(100% - 2*45px);
-        grid-template-columns: repeat(2,1fr);
         gap: 10px;
     }
 }
 
 @media screen and (max-width: 900px) and (min-width: 320px) {
     .events {
-        width: calc(100% - 2*19px);
         grid-template-columns: 1fr;
+        grid-template-rows: min-content;
+        grid-template-areas:
+        "logo"
+        "list";
+        width: calc(100% - 2*19px);
     }
 }

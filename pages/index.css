@@ -11,6 +11,8 @@
 @import url(../blocks/help/__button/help__button.css);
 @import url(../blocks/events/events.css);
 @import url(../blocks/event/event.css);
+@import url(../blocks/events/__logo/events__logo.css);
+@import url(../blocks/events/__list/events__list.css);
 @import url(../blocks/event/__sun/event__sun.css);
 @import url(../blocks/event/__data/event__data.css);
 @import url(../blocks/event/__text/event__text.css);

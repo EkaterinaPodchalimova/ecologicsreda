@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+.help:hover .help__button {
+    transform: scale(1.05);
+    border-color: rgb(224, 209, 159);
+    color: black;
+}
+
 @media screen and (max-width:1280px)  {
     .help {
         width: 780px;

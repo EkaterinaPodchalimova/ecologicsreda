@@ -1,5 +1,6 @@
 .event__data {
     margin: 5px 0 0 0;
+    height: fit-content;
     grid-area: data;
     color: rgb(0, 0, 0);
     font-family: Roboto, Arial, sans-serif;
