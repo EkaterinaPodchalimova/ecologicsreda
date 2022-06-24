@@ -37,3 +37,5 @@
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partner/partner.css);
 @import url(../blocks/partner/__icon/partner__icon.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
